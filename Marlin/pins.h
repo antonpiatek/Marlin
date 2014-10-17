@@ -50,10 +50,10 @@
 #define E0_DIR_PIN          7
 #define E0_ENABLE_PIN      17
 
-#define HEATER_0_PIN       21  // Extruder
+#define HEATER_0_PIN       20  // Bed
 #define HEATER_1_PIN       -1
 #define HEATER_2_PIN       -1
-#define HEATER_BED_PIN     20  // Bed
+#define HEATER_BED_PIN     21  // Extruder
 // You may need to change FAN_PIN to 16 because Marlin isn't using fastio.h
 // for the fan and Teensyduino uses a different pin mapping.
 #define FAN_PIN            16  // Fan
